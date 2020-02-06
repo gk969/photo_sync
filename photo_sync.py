@@ -12,7 +12,7 @@ def is_file_valid(file):
     return cv2.imread(file) is not None
 
 def copy_file(src, dst):
-    print(f"cp dst {dst}")
+    print(f"copy {src}")
     shutil.copy(src, dst)
 
 def is_img_file(file):
